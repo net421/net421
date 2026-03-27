@@ -1,16 +1,31 @@
-## Hi there 👋
+# Emmanuel Beristain Guzmán
 
-<!--
-**net421/net421** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Logistics Engineer focused on supply chain, transportation and data-driven optimization.
 
-Here are some ideas to get you started:
+## Areas of Interest
+- Logistics & Supply Chain
+- Transportation Optimization
+- Data Analysis (Python, Excel)
+- Process Improvement
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### Logistics Optimization System
+Route optimization using Vehicle Routing Problem (VRP) heuristics:
+
+- Nearest Neighbor
+- 2-opt optimization
+- Distance reduction and efficiency analysis
+- Cost model with annual savings estimation
+
+🔗 https://github.com/net421/logistics-optimization
+
+## Skills
+- Logistics & Transportation
+- Supply Chain Operations
+- Data Analysis (Python, Excel)
+- Optimization & Efficiency
+- ERP (SAP, WMS)
+
+## Objective
+Apply data analysis and optimization to improve logistics and supply chain operations.
