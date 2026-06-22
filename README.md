@@ -28,6 +28,7 @@ This research line connects foundational stochastic near-critical theory, a repr
 
 | Domain | Representative Project | Core Capabilities |
 |---|---|---|
+| Research Engineering / Automation | [Industrial Research Automation Lab](https://github.com/net421/industrial-risk-control) | Live literature retrieval, hypothesis ranking, reproducible experiments, Numba, CI/CD, evidence validation |
 | Quantitative Research / Theory | [Near-Critical Systems Research](https://github.com/net421/near-critical-systems) | First-passage dynamics, inverse Gaussian approximation, stochastic modeling, reproducible research |
 | Quantitative Research / Benchmarking | [Controlled Near-Critical Benchmark](https://github.com/net421/controlled-near-critical) | Paper B, threshold policies, Monte Carlo experiments, critical-boundary analysis, reproducibility package |
 | Decision Intelligence / Supply Chain | [Supply Chain Digital Twin](https://github.com/net421/Supply-Chain-Digital-Twin) | Simulation, optimization, resilience analytics, KPI frameworks, executive dashboards |
@@ -39,6 +40,14 @@ This research line connects foundational stochastic near-critical theory, a repr
 ---
 
 ## Featured Analytics Platforms
+
+### Industrial Research Automation Lab
+
+Evidence-linked research-engineering factory for near-critical industrial systems. The current vertical cycle retrieves live scholarly metadata, maps candidate gaps, ranks falsifiable hypotheses, freezes experiment protocols, runs deterministic Python/Numba simulations, validates statistical and reproducibility evidence, and produces skeptical reviews and ranked portfolio decisions through local execution or GitHub Actions.
+
+The roadmap extends this foundation toward multi-source full-text synthesis, adaptive experiment construction, confirmatory replication, and evidence-traceable manuscript candidates with mandatory human approval gates.
+
+**Demonstrates:** Research Automation • Python • Numba • Monte Carlo Simulation • CI/CD • GitHub Actions • Reproducible Research • Evidence Provenance • Statistical Validation
 
 ### Near-Critical Systems Research
 
@@ -108,12 +117,15 @@ SQL and Power BI analytics project using real logistics shipment data to evaluat
 - Threshold-Control Benchmarking
 - Reproducible Analytics
 - Reproducible Research Pipelines
+- Research Workflow Automation
+- CI/CD and GitHub Actions
+- Evidence Provenance and Validation
 
 ---
 
 ## Technology Stack
 
-**Python** • **SQL** • **Power BI** • **Pandas** • **NumPy** • **Numba** • **NetworkX** • **Matplotlib** • **SQLite** • **GitHub**
+**Python** • **SQL** • **Power BI** • **Pandas** • **NumPy** • **Numba** • **NetworkX** • **Matplotlib** • **SQLite** • **GitHub** • **GitHub Actions** • **pytest**
 
 ---
 
