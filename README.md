@@ -1,12 +1,65 @@
-﻿# Emmanuel Beristain Guzman
+# Emmanuel Beristain Guzman
 
 ## Analytics • Business Intelligence • Decision Intelligence
 
-**Supply Chain Analytics • Marketplace Analytics • CRM Revenue Analytics • Operational Risk • Quantitative Systems • Near-Critical Systems Research**
+**Python • SQL • Power BI • Simulation • Optimization • Reproducible Analytics**
 
-I build end-to-end analytics and decision-support systems that transform operational, marketplace, CRM, and supply-chain data into actionable business insights, executive reporting, KPI frameworks, risk evaluation, and decision-support outputs.
+I build analytics and decision-support systems that transform operational, commercial, marketplace, and supply-chain data into KPIs, dashboards, simulations, risk assessments, and actionable business recommendations.
 
-My portfolio combines **Python, SQL, Power BI, simulation, optimization, network science, dashboarding, reproducible analytics pipelines, and AI-augmented analytical workflows**.
+My portfolio connects **Business Analytics**, **Operations and Decision Intelligence**, and **Analytics and Research Engineering** through reproducible projects grounded in real-world data, quantitative methods, and executive communication.
+
+---
+
+## Professional Focus
+
+### Business Analytics & BI
+
+KPI development, executive reporting, dashboard design, revenue analytics, marketplace intelligence, operational risk, cost analysis, and business insight generation.
+
+### Operations & Decision Intelligence
+
+Supply-chain analytics, simulation, optimization, scenario analysis, policy benchmarking, resilience evaluation, and data-driven decision support.
+
+### Analytics & Research Engineering
+
+Reproducible Python pipelines, automated validation, testing, GitHub Actions, Numba acceleration, evidence provenance, and research workflow automation.
+
+---
+
+## Selected Portfolio
+
+### Analytics Platforms
+
+| Project | Business Value | Core Capabilities |
+|---|---|---|
+| [Marketplace Intelligence Platform](https://github.com/net421/Marketplace-Intelligence-Platform) | Customer, seller, category, delivery, and marketplace-risk intelligence | Marketplace Analytics • BI • Network Science • Intervention Ranking |
+| [CRM Revenue Intelligence Dashboard](https://github.com/net421/CRM-Revenue-Intelligence-Dashboard) | Revenue, conversion, product, sector, and sales-performance reporting | CRM Analytics • Revenue KPIs • Executive Dashboards |
+| [Operational Risk & Reliability Analytics](https://github.com/net421/operational-risk-reliability-analytics) | Failure probability, severity, utilization, and cost-exposure analysis | Python • SQL • Power BI • Risk Analytics |
+| [Shipment Pricing Analytics](https://github.com/net421/supply-chain-shipment-pricing-analytics) | Freight-cost, shipment-mode, country, and cost-per-kg analysis | SQL • Power BI • Logistics Analytics • KPI Development |
+
+### Operations & Decision Systems
+
+| Project | Decision Problem | Core Capabilities |
+|---|---|---|
+| [Supply Chain Digital Twin](https://github.com/net421/Supply-Chain-Digital-Twin) | Evaluate disruptions, policies, critical nodes, and resilience investments | Simulation • Optimization • Network Science • Executive Reporting |
+| [Demand Forecasting](https://github.com/net421/demand-forecasting) | Compare forecasting models for inventory and supply planning | Python • Feature Engineering • Model Evaluation |
+| [Route Optimization](https://github.com/net421/route-optimization) | Reduce route distance while respecting fleet capacity | Operations Research • Heuristics • Visualization |
+| [Inventory Simulator](https://github.com/net421/inventory-simulator) | Evaluate inventory policies and service-level tradeoffs | Inventory Analytics • Simulation • KPI Reporting |
+
+### Research Engineering
+
+| Project | Contribution | Core Capabilities |
+|---|---|---|
+| [Industrial Research Automation Lab](https://github.com/net421/industrial-risk-control) | Evidence-linked workflow from literature retrieval to reproducible computational validation | Python • Numba • pytest • CI/CD • GitHub Actions • Evidence Provenance |
+| [Near-Critical Systems Research](https://github.com/net421/near-critical-systems) | First-passage reliability, corrected approximation, hazard characterization, and threshold control | Monte Carlo • Statistical Inference • Stochastic Modeling • Reproducible Research |
+| [Controlled Near-Critical Benchmark](https://github.com/net421/controlled-near-critical) | Controlled experiments connecting near-critical theory with industrial application | Threshold Policies • Critical Boundaries • Benchmarking • DOI Archive |
+
+### Python Foundations
+
+| Project | Focus |
+|---|---|
+| [Phi Rectangles](https://github.com/net421/phi-rectangles) | Mathematical modeling, Fibonacci ratios, loops, functions, and visualization |
+| [Fibonacci Geometry Experiments](https://github.com/net421/fibonacci-) | Early Python geometry experiment retained for planned redevelopment |
 
 ---
 
@@ -20,117 +73,33 @@ Controlled Near-Critical Benchmark (Paper B)
 Supply Chain Digital Twin application
 ```
 
-This research line connects foundational stochastic near-critical theory, a reproducible controlled benchmark package, and an industrial Digital Twin application for supply-chain resilience and decision intelligence.
+This research line connects foundational stochastic theory, a reproducible controlled benchmark, and an industrial Digital Twin application for supply-chain resilience and decision intelligence.
 
----
-
-## Portfolio Ecosystem
-
-| Domain | Representative Project | Core Capabilities |
-|---|---|---|
-| Research Engineering / Automation | [Industrial Research Automation Lab](https://github.com/net421/industrial-risk-control) | Live literature retrieval, hypothesis ranking, reproducible experiments, Numba, CI/CD, evidence validation |
-| Quantitative Research / Theory | [Near-Critical Systems Research](https://github.com/net421/near-critical-systems) | First-passage dynamics, inverse Gaussian approximation, stochastic modeling, reproducible research |
-| Quantitative Research / Benchmarking | [Controlled Near-Critical Benchmark](https://github.com/net421/controlled-near-critical) | Paper B, threshold policies, Monte Carlo experiments, critical-boundary analysis, reproducibility package |
-| Decision Intelligence / Supply Chain | [Supply Chain Digital Twin](https://github.com/net421/Supply-Chain-Digital-Twin) | Simulation, optimization, resilience analytics, KPI frameworks, executive dashboards |
-| Marketplace Analytics | [Marketplace Intelligence Platform](https://github.com/net421/Marketplace-Intelligence-Platform) | Customer analytics, seller intelligence, marketplace risk, network science, intervention ranking |
-| CRM / Revenue Analytics | [CRM Revenue Intelligence Dashboard](https://github.com/net421/CRM-Revenue-Intelligence-Dashboard) | Revenue KPIs, sales performance, opportunity conversion, product/sector analysis |
-| Operational Risk | [Operational Risk & Reliability Analytics](https://github.com/net421/operational-risk-reliability-analytics) | Failure probability, severity, cost exposure, utilization thresholds, risk dashboards |
-| Logistics / Cost Analytics | [Shipment Pricing Analytics](https://github.com/net421/supply-chain-shipment-pricing-analytics) | Freight cost analysis, SQL aggregation, Power BI reporting, cost-per-kg KPIs |
-
----
-
-## Featured Analytics Platforms
-
-### Industrial Research Automation Lab
-
-Evidence-linked research-engineering factory for near-critical industrial systems. The current vertical cycle retrieves live scholarly metadata, maps candidate gaps, ranks falsifiable hypotheses, freezes experiment protocols, runs deterministic Python/Numba simulations, validates statistical and reproducibility evidence, and produces skeptical reviews and ranked portfolio decisions through local execution or GitHub Actions.
-
-The roadmap extends this foundation toward multi-source full-text synthesis, adaptive experiment construction, confirmatory replication, and evidence-traceable manuscript candidates with mandatory human approval gates.
-
-**Demonstrates:** Research Automation • Python • Numba • Monte Carlo Simulation • CI/CD • GitHub Actions • Reproducible Research • Evidence Provenance • Statistical Validation
-
-### Near-Critical Systems Research
-
-Foundational quantitative research project using Monte Carlo simulation, stochastic modeling, first-passage dynamics, statistical inference, and reproducible research pipelines to characterize near-critical operating regimes.
-
-**Demonstrates:** Quantitative Research • Monte Carlo Simulation • Statistical Inference • Operations Research • Reproducible Science
-
-### Controlled Near-Critical Benchmark (Paper B)
-
-Reproducible benchmark package containing the scripts, results, figures, and manuscript materials for Paper B. The project evaluates preventive threshold-control logic in a controlled near-critical environment and serves as the experimental bridge between the foundational Near-Critical Systems framework and the industrial Supply Chain Digital Twin application.
-
-**Demonstrates:** Research Benchmarking • Threshold Policies • Monte Carlo Experiments • Critical Boundary Discovery • Reproducibility Packages
-
-### Supply Chain Digital Twin & Decision Intelligence Platform
-
-End-to-end industrial analytics platform integrating simulation, optimization, network science, resilience analytics, KPI frameworks, scenario analysis, policy benchmarking, executive reporting, and decision-support methodologies.
-
-**Demonstrates:** Supply Chain Analytics • Decision Intelligence • Simulation • Optimization • Network Science • Executive Reporting • KPI Development
-
-### Marketplace Intelligence Platform
-
-Multi-layer marketplace analytics platform using e-commerce transaction data to analyze customers, sellers, categories, delivery performance, marketplace fragility, concentration risk, and operational interventions.
-
-**Demonstrates:** Marketplace Analytics • Customer Intelligence • Seller Intelligence • Business Intelligence • Risk Analytics • Network Science
-
-### CRM Revenue Intelligence Dashboard
-
-Business analytics dashboard for sales-performance monitoring, revenue KPIs, opportunity conversion, product profitability, sector analysis, and sales-agent benchmarking.
-
-**Demonstrates:** CRM Analytics • Revenue Analytics • Sales Analytics • Executive Reporting • KPI Dashboards
-
-### Operational Risk & Reliability Analytics
-
-Python, SQL, and Power BI analytics system for operational risk, reliability, failure probability, severity analysis, utilization thresholds, and cost exposure.
-
-**Demonstrates:** Risk Analytics • Reliability Analytics • Operational Monitoring • BI Reporting • Cost Exposure Analysis
-
-### Supply Chain Shipment Pricing Analytics
-
-SQL and Power BI analytics project using real logistics shipment data to evaluate freight costs, shipment mode performance, country-level cost exposure, and cost-per-kg metrics.
-
-**Demonstrates:** SQL Analytics • Power BI • Logistics Analytics • Cost Analysis • KPI Development
+A parallel [Industrial Research Automation Lab](https://github.com/net421/industrial-risk-control) provides the engineering infrastructure for deterministic experiments, statistical validation, evidence traceability, CI/CD, and bounded research workflows.
 
 ---
 
 ## Core Capabilities
 
-- Business Analytics
-- Business Intelligence
-- Decision Intelligence
-- KPI Development
-- Executive Reporting
-- Dashboard Development
-- Data Visualization
-- Supply Chain Analytics
-- Marketplace Analytics
-- CRM / Revenue Analytics
-- Operational Risk Analytics
-- Simulation Modeling
-- Monte Carlo Analysis
-- Optimization
-- Network Science
-- Scenario Analysis
-- Policy Benchmarking
-- Process Improvement
-- Near-Critical Systems
-- Threshold-Control Benchmarking
-- Reproducible Analytics
-- Reproducible Research Pipelines
-- Research Workflow Automation
-- CI/CD and GitHub Actions
-- Evidence Provenance and Validation
+| Area | Capabilities |
+|---|---|
+| Business Analytics & BI | KPI Development • Executive Reporting • Dashboard Design • Data Visualization • Business Insights |
+| Domain Analytics | Supply Chain • Logistics • Marketplace • CRM / Revenue • Operational Risk |
+| Decision Support | Scenario Analysis • Policy Benchmarking • Cost Analysis • Process Improvement • Resilience Evaluation |
+| Quantitative Methods | Monte Carlo Simulation • Statistical Inference • Operations Research • Optimization • Network Science |
+| Analytics Engineering | Reproducible Pipelines • Testing • Automated Validation • Artifact Generation • Version Control |
+| Research Engineering | Numba Acceleration • GitHub Actions • CI/CD • Evidence Provenance • Research Automation |
 
 ---
 
 ## Technology Stack
 
-**Python** • **SQL** • **Power BI** • **Pandas** • **NumPy** • **Numba** • **NetworkX** • **Matplotlib** • **SQLite** • **GitHub** • **GitHub Actions** • **pytest**
+**Python** • **SQL** • **Power BI** • **Pandas** • **NumPy** • **Numba** • **SciPy** • **NetworkX** • **Matplotlib** • **SQLite** • **pytest** • **GitHub Actions**
 
 ---
 
 ## Professional Direction
 
-I am focused on roles in **Business Analysis, Data Analysis, Business Intelligence, Operations Analytics, Supply Chain Analytics, Analytics Engineering Junior, Decision Intelligence, Quantitative Analytics, and Simulation / Digital Twin Analytics**.
+Focused on opportunities in **Business Analytics, Business Intelligence, Operations Analytics, Supply Chain Analytics, and Decision Intelligence**.
 
-My work combines a logistics and operations background with analytics, simulation, decision-support systems, and AI-augmented productivity workflows.
+My portfolio also demonstrates transferable capabilities in **analytics engineering, quantitative analysis, simulation, optimization, and research automation**, supported by a logistics and operations background.
