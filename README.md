@@ -1,111 +1,95 @@
 # Emmanuel Beristain Guzman
 
-## Logistics Engineer | Junior Data & BI Analyst
+## Logistics Engineer | Junior Supply Chain & Data Analyst
 
-**Supply Chain Analytics • SQL • Python • dbt • Dashboards • Data Quality**
+**Transport operations background • SQL • Python • dbt • Dashboards • Data quality**
 
-I am a logistics engineer with hands-on analytics projects for entry-level roles in
-supply chain, operations, data analysis, and business intelligence.
+I am a logistics engineer and former **Transport Fleet Coordinator** building toward
+junior roles in supply chain analytics, operations analysis, data analysis, and BI.
+My formal logistics experience provides the domain context; the repositories below
+are independent, executable work samples rather than corporate or production work.
 
-My strongest evidence comes from independent, executable projects: defining operational
-KPIs, transforming data with SQL and Python, building analytical models, checking data
-quality, and presenting results in dashboards. These projects are not presented as
-corporate employment or production experience.
+## Evidence in 60 seconds
 
-## Featured Projects
+| A manager may ask | Direct evidence | Transferable capability |
+|---|---|---|
+| Can you investigate a KPI that does not reconcile? | [Control Tower issue #6](https://github.com/net421/supply-chain-operations-control-tower/issues/6) → [tested PR #7](https://github.com/net421/supply-chain-operations-control-tower/pull/7) → [manager case study](https://github.com/net421/supply-chain-operations-control-tower/blob/main/docs/manager_case_study.md) | Metric governance, SQL/Python debugging, and root-cause validation |
+| Can you turn operational records into a usable report? | [Logistics issue #3](https://github.com/net421/logistics-dashboard/issues/3) → [export PR #4](https://github.com/net421/logistics-dashboard/pull/4) → [verified screenshot](https://github.com/net421/logistics-dashboard/blob/main/docs/logistics-dashboard.png) | KPI design, filtering, visualization, and operational communication |
+| Can you build trustworthy reporting models? | [dbt issue #3](https://github.com/net421/dbt-analytics-engineering-lab/issues/3) → [evidence PR #4](https://github.com/net421/dbt-analytics-engineering-lab/pull/4) → [validation summary](https://github.com/net421/dbt-analytics-engineering-lab/blob/main/validation/dbt_validation_summary.md) | Dimensional modeling, reusable SQL, tests, documentation, and lineage |
+| Can you receive a change request and prove the result? | The linked issues and PRs document the problem, acceptance criteria, implementation, tests, and limitations | Ticket-based delivery, regression testing, and clear handoff |
 
-### 1. [Supply Chain Operations Control Tower](https://github.com/net421/supply-chain-operations-control-tower)
+## Featured work samples
 
-An operations analytics project focused on logistics service, inventory, transportation,
-and fulfillment performance.
+### [Supply Chain Operations Control Tower](https://github.com/net421/supply-chain-operations-control-tower)
 
-**What it demonstrates**
+**Business problem:** service, fulfillment, inventory, transportation, and planning
+metrics can disagree when their grain or definitions are unclear.
 
-- SQL and Python transformations over ERP/WMS/TMS-style datasets.
-- OTIF, fill rate, service-level, inventory, and logistics-cost KPIs.
-- Data-quality checks, reconciliation, exception handling, and reproducible outputs.
-- The ability to trace a business metric from source data to an analytical result.
-- Eight reconciled SQL/Python metrics, 37 automated quality checks, and ten tests.
+**Delivered:** a one-command local pipeline over 2,400 synthetic orders and 5,928
+order lines, with independent pandas and DuckDB implementations.
 
-**Evidence boundary:** the data is synthetic and the project runs locally. It demonstrates
-project-level implementation, not experience operating an enterprise control tower.
+**Evidence:** eight reconciled SQL/Python metrics, 38 automated data-quality checks,
+eleven regression tests, exception outputs, and a bounded executive summary.
 
-### 2. [dbt Analytics Engineering Lab](https://github.com/net421/dbt-analytics-engineering-lab)
+**Transferable to:** KPI reconciliation, recurring operational reporting, carrier or
+supplier investigation, and data-quality troubleshooting.
 
-An executable analytics-engineering project that turns source data into documented,
-tested analytical models.
+### [Logistics KPI Dashboard](https://github.com/net421/logistics-dashboard)
 
-**What it demonstrates**
+**Business problem:** operations teams need service and cost measures that respond
+consistently to the same period, supplier, and route selections.
 
-- Staging, intermediate, and mart layers.
-- Dimensional modeling and reusable business logic.
-- dbt tests, snapshots, documentation, lineage, and exposures.
-- Local execution and validation of model outputs.
+**Delivered:** a Streamlit/Plotly application calculated from 996 deterministic
+synthetic orders, with five governed KPIs and operational observations.
 
-**Evidence boundary:** this is a laboratory project rather than a dbt deployment maintained
-for a company. It supports junior roles that accept projects or equivalent evidence.
+**Evidence:** verified dashboard image, known-result KPI fixtures, input contracts,
+sixteen tests, application smoke coverage, and GitHub Actions.
 
-### 3. [Logistics Dashboard](https://github.com/net421/logistics-dashboard)
+**Transferable to:** operational dashboards, recurring KPI reporting, exception
+prioritization, and communication with non-technical stakeholders.
 
-An interactive logistics dashboard built with Python, Streamlit, and Plotly to explore
-operational performance.
+### [dbt Analytics Engineering Lab](https://github.com/net421/dbt-analytics-engineering-lab)
 
-**What it demonstrates**
+**Business problem:** dashboards need consistent, documented models between raw
+operational sources and business-facing metrics.
 
-- Five calculated KPIs, filters, and supplier and route breakdowns.
-- Logistics metrics translated into a usable visual interface.
-- A reproducible dashboard that can be run and reviewed from its source code.
-- Communication of findings for a non-technical operations audience.
+**Delivered:** deterministic source generation plus staging, intermediate, fact,
+dimension, operations, and customer models on dbt and DuckDB.
 
-**Evidence boundary:** the dashboard uses deterministic synthetic data and is not Power BI
-or Tableau. It proves tested dashboard development with Python, Streamlit, and Plotly.
+**Evidence:** 20 models, a Type 2 snapshot, two exposures, 71 passing data tests,
+98.35% unit-weighted fill reconciliation, generated documentation, and CI evidence.
 
-## Roles I Am Targeting
+**Transferable to:** analytics model maintenance, SQL transformation, lineage,
+regression testing, and reliable BI datasets.
 
-- Junior Supply Chain Analyst / Supply Chain Analyst Jr.
-- Junior Logistics or Operations Analyst.
-- Junior Inventory, Transportation, or Reporting Analyst.
-- Junior Data Analyst.
-- Junior Business Intelligence Analyst.
-- Junior Analytics Engineer when projects or equivalent experience are accepted.
+## How the skills transfer
 
-I prioritize trainee, graduate, entry-level, and junior opportunities where practical
-projects can complement academic and logistics-domain preparation.
-
-## Functional Skills
-
-| Area | Demonstrated skills |
+| Work activity | Demonstrated approach |
 |---|---|
-| Supply chain | OTIF, fill rate, inventory, transportation, service, and cost KPIs |
-| SQL | Joins, aggregations, window functions, transformations, and validation queries |
-| Python | pandas-based analysis, data cleaning, KPI calculation, and automated reporting |
-| Analytics engineering | dbt models, marts, tests, snapshots, documentation, and lineage |
-| Data quality | Reconciliation, contracts, duplicate checks, exceptions, and regression tests |
-| Dashboards | Streamlit, Plotly, KPI design, filters, and analytical storytelling |
-| Delivery | Git, GitHub, pytest, documentation, and reproducible local workflows |
+| Define a KPI | Document formula, grain, denominator, unit, and limitations |
+| Investigate an exception | Trace source rows through transformations to the reported result |
+| Change a business rule | Update both implementations, tests, documentation, and reconciliation |
+| Prepare an operational review | Separate observations, possible actions, assumptions, and missing context |
+| Maintain recurring reporting | Use deterministic runs, validation contracts, regression tests, and CI |
 
-## How I Work With AI
+## Tools demonstrated
 
-I use AI assistance to accelerate implementation, documentation, debugging, and iteration.
-I remain responsible for defining the problem, choosing metrics, reviewing code, running
-tests, validating outputs, correcting errors, and explaining the final solution.
+- **Supply chain:** OTIF, on-time delivery, fill rate, inventory, transportation,
+  forecast, service, and cost metrics.
+- **SQL and modeling:** joins, CTEs, aggregations, window functions, dimensional
+  models, marts, and reconciliation queries.
+- **Python:** pandas analysis, validation, KPI calculation, reporting, pytest,
+  Streamlit, and Plotly.
+- **Analytics engineering:** dbt models, snapshots, tests, documentation, lineage,
+  exposures, DuckDB, Git, and GitHub Actions CI.
 
-I do not present AI-assisted projects as professional employment. I can explain each data
-flow, modify a metric or rule, reproduce its results, and debug the featured projects.
+## Scope
 
-## Current Scope and Limitations
+The featured datasets are synthetic and the projects run locally. They demonstrate
+junior-level implementation and explainable work samples, not enterprise production
+experience, real customer impact, Power BI/Tableau delivery, SAP integration, cloud
+operations, or years of professional data-platform ownership.
 
-- Most portfolio evidence is based on synthetic, public, or local datasets.
-- The projects demonstrate junior-level implementation, not years of enterprise production work.
-- Cloud platforms and enterprise BI tools are not claimed unless a repository contains direct,
-  executable evidence for the specific tool.
-- Comparable tools and architectural patterns are not described as professional experience
-  with Databricks, Azure, AWS, SAP, Power BI, Tableau, or another named platform.
-
-## What I Can Contribute From the First Weeks
-
-- Clean and analyze operational datasets with SQL and Python.
-- Define and validate logistics or business KPIs with stakeholder guidance.
-- Build and maintain junior-level reports, marts, tests, and dashboards.
-- Investigate discrepancies, document assumptions, and communicate limitations clearly.
-- Learn a team-specific tool with supervision when the underlying task is already familiar.
+AI tools assisted implementation and review. I remain responsible for the problem
+definition, metric choices, validation, testing, corrections, and explanation of the
+final work, and I can reproduce and modify the featured projects.
