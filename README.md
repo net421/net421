@@ -1,215 +1,111 @@
 # Emmanuel Beristain Guzman
 
-## AI-Native Data, Analytics & Agentic Systems Engineer
+## Logistics Engineer | Junior Data & BI Analyst
 
-**Analytics Engineering • Business Intelligence • SQL • Python • dbt • Data Pipelines • Decision Intelligence • Multi-Agent Systems • AgentOps • AI-Augmented Development**
+**Supply Chain Analytics • SQL • Python • dbt • Dashboards • Data Quality**
 
-I build reproducible analytics, research, and decision-support systems that transform operational, commercial, marketplace, CRM, and supply-chain data into governed metrics, analytical models, dashboards, automated workflows, simulations, experiments, multi-agent research, observability evidence, and human-reviewed recommendations.
+I am a logistics engineer with hands-on analytics projects for entry-level roles in
+supply chain, operations, data analysis, and business intelligence.
 
-My portfolio is organized as a connected evidence system rather than a collection of isolated repositories. The central entry point is the **[AI-Native Analytics Portfolio Roadmap](https://github.com/net421/AI-Native-Analytics-Portfolio-Roadmap)**, which maps capabilities to repositories, validated releases, claim boundaries, and target roles.
+My strongest evidence comes from independent, executable projects: defining operational
+KPIs, transforming data with SQL and Python, building analytical models, checking data
+quality, and presenting results in dashboards. These projects are not presented as
+corporate employment or production experience.
 
-**Portfolio structure:** 16 active repositories • 7 foundational analytics systems • 8 AI-native and agentic systems • 7 preserved historical/scientific evidence repositories
+## Featured Projects
 
----
+### 1. [Supply Chain Operations Control Tower](https://github.com/net421/supply-chain-operations-control-tower)
 
-## Portfolio Architecture
+An operations analytics project focused on logistics service, inventory, transportation,
+and fulfillment performance.
 
-```mermaid
-flowchart LR
-    R[Portfolio Roadmap]
+**What it demonstrates**
 
-    CT[Supply Chain Control Tower] --> BI[Governed BI Dashboard Lab]
-    REV[Revenue Growth Analytics] --> BI
-    WH[Cloud Warehouse Lab] --> DBT[dbt Analytics Engineering]
-    DBT --> SA[Semantic Layer AI Agent]
-    WH --> SA
-    SA --> EV[Shared MLOps / LLMOps Evaluation]
-    DT[Supply Chain Decision Twin] --> EV
-    WH --> EV
-    DBT --> EV
+- SQL and Python transformations over ERP/WMS/TMS-style datasets.
+- OTIF, fill rate, service-level, inventory, and logistics-cost KPIs.
+- Data-quality checks, reconciliation, exception handling, and reproducible outputs.
+- The ability to trace a business metric from source data to an analytical result.
+- Eight reconciled SQL/Python metrics, 37 automated quality checks, and ten tests.
 
-    MC[Supply Chain Resilience Monte Carlo] --> DT
-    MC --> CAUSAL[Causal Experimentation]
-    CAUSAL --> DEC[Governed Decision Evidence]
+**Evidence boundary:** the data is synthetic and the project runs locally. It demonstrates
+project-level implementation, not experience operating an enterprise control tower.
 
-    MEL[MEL Governor] --> AOPS[AgentOps Observability]
-    SA -. compatible event contract .-> AOPS
-    DT -. compatible event contract .-> AOPS
+### 2. [dbt Analytics Engineering Lab](https://github.com/net421/dbt-analytics-engineering-lab)
 
-    DEV[Local Agentic Dev Control Plane] -. guarded development tooling .-> MEL
-    DEV -. guarded development tooling .-> AOPS
+An executable analytics-engineering project that turns source data into documented,
+tested analytical models.
 
-    CE[Cloud-Executable Analytics] --> RUN[Executable Runtime Evidence]
+**What it demonstrates**
 
-    R --> CT
-    R --> REV
-    R --> WH
-    R --> DBT
-    R --> BI
-    R --> MC
-    R --> SA
-    R --> DT
-    R --> EV
-    R --> CAUSAL
-    R --> CE
-    R --> MEL
-    R --> AOPS
-    R --> DEV
-```
+- Staging, intermediate, and mart layers.
+- Dimensional modeling and reusable business logic.
+- dbt tests, snapshots, documentation, lineage, and exposures.
+- Local execution and validation of model outputs.
 
-The strict, commit-pinned integrations remain the Semantic Agent with dbt and warehouse models, and the shared evaluator with the Semantic Agent, Decision Twin, dbt, and warehouse repositories. Other arrows describe complementary or compatible portfolio relationships, not a claim that every project is deployed as one production platform.
+**Evidence boundary:** this is a laboratory project rather than a dbt deployment maintained
+for a company. It supports junior roles that accept projects or equivalent evidence.
 
----
+### 3. [Logistics Dashboard](https://github.com/net421/logistics-dashboard)
 
-## Active Portfolio System
+An interactive logistics dashboard built with Python, Streamlit, and Plotly to explore
+operational performance.
 
-### Control Plane
+**What it demonstrates**
 
-| Repository | Role in the system |
+- Five calculated KPIs, filters, and supplier and route breakdowns.
+- Logistics metrics translated into a usable visual interface.
+- A reproducible dashboard that can be run and reviewed from its source code.
+- Communication of findings for a non-technical operations audience.
+
+**Evidence boundary:** the dashboard uses deterministic synthetic data and is not Power BI
+or Tableau. It proves tested dashboard development with Python, Streamlit, and Plotly.
+
+## Roles I Am Targeting
+
+- Junior Supply Chain Analyst / Supply Chain Analyst Jr.
+- Junior Logistics or Operations Analyst.
+- Junior Inventory, Transportation, or Reporting Analyst.
+- Junior Data Analyst.
+- Junior Business Intelligence Analyst.
+- Junior Analytics Engineer when projects or equivalent experience are accepted.
+
+I prioritize trainee, graduate, entry-level, and junior opportunities where practical
+projects can complement academic and logistics-domain preparation.
+
+## Functional Skills
+
+| Area | Demonstrated skills |
 |---|---|
-| **[AI-Native Analytics Portfolio Roadmap](https://github.com/net421/AI-Native-Analytics-Portfolio-Roadmap)** | Central architecture, release ledger, evidence graph, claim boundaries, frozen-history policy, review paths, and portfolio validation |
+| Supply chain | OTIF, fill rate, inventory, transportation, service, and cost KPIs |
+| SQL | Joins, aggregations, window functions, transformations, and validation queries |
+| Python | pandas-based analysis, data cleaning, KPI calculation, and automated reporting |
+| Analytics engineering | dbt models, marts, tests, snapshots, documentation, and lineage |
+| Data quality | Reconciliation, contracts, duplicate checks, exceptions, and regression tests |
+| Dashboards | Streamlit, Plotly, KPI design, filters, and analytical storytelling |
+| Delivery | Git, GitHub, pytest, documentation, and reproducible local workflows |
 
-### Foundational Analytics Engineering
+## How I Work With AI
 
-| Repository | Evidence | Relationship |
-|---|---|---|
-| [Supply Chain Operations Control Tower](https://github.com/net421/supply-chain-operations-control-tower) | ERP/WMS/TMS-style synthetic data, OTIF, fill rate, service, inventory, and logistics-cost KPIs | Operational source and KPI evidence for BI and decision-support use cases |
-| [Cloud Warehouse Analytics Lab](https://github.com/net421/cloud-warehouse-analytics-lab) | Executable DuckDB warehouse, analytical marts, cross-platform SQL patterns, tests, and reproducible exports | Governed warehouse source for dbt and the Semantic Layer Agent |
-| [dbt Analytics Engineering Lab](https://github.com/net421/dbt-analytics-engineering-lab) | Staging, intermediate, marts, snapshot, exposures, tests, lineage, and documentation | Semantic modeling layer consumed contractually by the Semantic Layer Agent and shared evaluator |
-| [Orchestration Data Pipelines Lab](https://github.com/net421/orchestration-data-pipelines-lab) | Validation-first pipelines, retry policy, idempotency, atomic publication, and failure recovery | Execution and reliability patterns for the analytics lifecycle |
-| [Tableau BI Dashboard Lab](https://github.com/net421/tableau-bi-dashboard-lab) | Governed metric contracts, reconciled extracts, dashboard specifications, and Tableau/Looker/Sigma/Power BI patterns | Presentation and semantic-consumption layer |
-| [Revenue Growth Analytics Engineering](https://github.com/net421/revenue-growth-analytics-engineering) | Funnel, cohorts, MRR, GRR/NRR, CAC, ROAS, LTV, segmentation, and churn-risk evidence | Commercial analytics feeding governed BI and decision narratives |
-| [Supply Chain Resilience Monte Carlo Lab](https://github.com/net421/supply-chain-resilience-monte-carlo-lab) | Eight disruption scenarios, five distribution families, VaR/CVaR, sensitivity and deterministic reporting | Quantitative bridge from historical resilience research to decision-twin and causal workflows |
+I use AI assistance to accelerate implementation, documentation, debugging, and iteration.
+I remain responsible for defining the problem, choosing metrics, reviewing code, running
+tests, validating outputs, correcting errors, and explaining the final solution.
 
-### AI-Native Analytics and Agentic Systems
+I do not present AI-assisted projects as professional employment. I can explain each data
+flow, modify a metric or rule, reproduce its results, and debug the featured projects.
 
-| Repository | Evidence | Relationship |
-|---|---|---|
-| [Semantic Layer AI Agent Lab](https://github.com/net421/semantic-layer-ai-agent-lab) | Governed questions, semantic catalog, read-only SQL, lineage, refusals, reconciliation, and drift detection | Contractually connected to dbt and cloud warehouse models |
-| [MLOps / LLMOps Evaluation Lab](https://github.com/net421/mlops-llmops-evaluation-lab) | Shared release gate, normalized evidence, regression testing, model/agent evaluation, and fail-closed decisions | Evaluates the Semantic Agent and Decision Twin against pinned releases |
-| [Supply Chain Decision Twin Agent](https://github.com/net421/supply-chain-decision-twin-agent) | Preserved Dify/RAG/FastAPI demo plus forecasting, scenario simulation, action ranking, persistence, and human approval | Decision-support agent evaluated by the shared release gate |
-| [Causal Experimentation Lab](https://github.com/net421/causal-experimentation-lab) | Randomized experiment, ANCOVA, HC1 uncertainty, permutation inference, robustness checks, and causal release envelope | Adds governed intervention evidence |
-| [Cloud-Executable Analytics Lab](https://github.com/net421/cloud-executable-analytics-lab) | Deterministic pipeline, contracts, SQLite evidence, atomic publication, non-root Docker, and CI | Demonstrates executable packaging without unsupported deployment claims |
-| [MEL Governor](https://github.com/net421/mel-governor) | Twenty-role political-economy multi-agent research pipeline, debate, confidence, knowledge graph and validation | Domain-specific multi-agent evidence-governance system with explicit epistemic boundaries |
-| [AgentOps Observability Lab](https://github.com/net421/agentops-observability-lab) | SQLite event store, session metrics, evaluation harness and byte-preserving read-only sidecar | Cross-agent observability and evaluation pattern |
-| [Local Agentic Dev Control Plane](https://github.com/net421/local-agentic-dev-control-plane) | Workspace inspection, planning, patch proposals, guarded apply, command allowlists, memory, bounded sprints, API and CLI | Local-first development tooling with human review and no autonomous deployment |
+## Current Scope and Limitations
 
----
+- Most portfolio evidence is based on synthetic, public, or local datasets.
+- The projects demonstrate junior-level implementation, not years of enterprise production work.
+- Cloud platforms and enterprise BI tools are not claimed unless a repository contains direct,
+  executable evidence for the specific tool.
+- Comparable tools and architectural patterns are not described as professional experience
+  with Databricks, Azure, AWS, SAP, Power BI, Tableau, or another named platform.
 
-## Connected Evidence Paths
+## What I Can Contribute From the First Weeks
 
-### Analytics and Decision Path
-
-```text
-Operational / Commercial Questions
-        ↓
-Warehouse + Domain Analytics + Monte Carlo Resilience
-        ↓
-dbt Models and Governed Metrics
-        ↓
-Semantic Agent / Decision Twin / Causal Analysis
-        ↓
-Shared Evaluation and AgentOps Evidence
-        ↓
-Human-Reviewed Decision Support
-```
-
-### Multi-Agent Engineering Path
-
-```text
-Research Question
-        ↓
-MEL Governor multi-agent deliberation
-        ↓
-Trace, confidence, knowledge graph and validation
-        ↓
-AgentOps observability and evaluation
-        ↓
-Human review
-
-Local Agentic Dev Control Plane
-        ↓
-Guarded planning, patches and validation
-        ↓
-Reviewed repository changes
-```
-
-### Scientific and Historical Research Lineage
-
-```text
-Near-Critical Systems research
-        ↓
-Controlled Near-Critical benchmark
-        ↓
-Historical Supply Chain Digital Twin
-        ↓
-Industrial Risk Control / research automation
-        ↓
-Supply Chain Resilience Monte Carlo Lab
-```
-
----
-
-## Preserved Historical and Scientific Evidence
-
-These repositories remain linked because they provide scientific, historical, domain, and paper-related evidence. They are intentionally preserved and were not modified during the active portfolio modernization.
-
-| Repository | Evidence relationship |
-|---|---|
-| [Near-Critical Systems](https://github.com/net421/near-critical-systems) | Foundational stochastic and first-passage reliability research |
-| [Controlled Near-Critical](https://github.com/net421/controlled-near-critical) | Controlled benchmark connecting theory to threshold-policy experiments |
-| [Industrial Risk Control](https://github.com/net421/industrial-risk-control) | Reproducible research automation, provenance, testing, and bounded workflows |
-| [Supply Chain Digital Twin](https://github.com/net421/Supply-Chain-Digital-Twin) | Historical simulation, optimization, network science, and resilience application |
-| [Marketplace Intelligence Platform](https://github.com/net421/Marketplace-Intelligence-Platform) | Historical marketplace, customer, seller, delivery, revenue, and network-risk evidence |
-| [CRM Revenue Intelligence Dashboard](https://github.com/net421/CRM-Revenue-Intelligence-Dashboard) | Historical CRM, sales-performance, conversion, and executive-reporting evidence |
-| [Operational Risk & Reliability Analytics](https://github.com/net421/operational-risk-reliability-analytics) | Historical failure-probability, severity, utilization, cost-exposure, SQL, Python, and BI evidence |
-
-> Los siete repositorios históricos aportan evidencia al portafolio, pero permanecen fuera del backlog de implementación, corrección, estandarización y publicación.
-
-They are connected through references and evidence lineage only. Their code, documentation, structure, dependencies, workflows, releases, branches, commits, and publication state remain unchanged.
-
----
-
-## How I Work
-
-1. Define the business or research question, users, metrics, constraints, and claim boundary.
-2. Build SQL, Python, dbt, BI, orchestration, simulation, experimental, agentic, or observability artifacts.
-3. Validate outputs with contracts, reconciliations, tests, CI, reproducibility checks, and evidence traces.
-4. Preserve human approval for consequential decisions and repository changes.
-5. Publish only claims supported by inspectable evidence.
-
-The default portfolio scope is synthetic, local, or laboratory evidence unless a repository explicitly provides external deployment evidence. No repository claims autonomous operational execution.
-
----
-
-## Core Capabilities
-
-| Area | Capabilities |
-|---|---|
-| Analytics Engineering | Advanced SQL • dbt • Dimensional Modeling • Marts • Tests • Lineage • Semantic Contracts |
-| Data Engineering | Python Pipelines • ELT/ETL • Orchestration • Idempotency • Atomic Publication • Data Quality |
-| Business Intelligence | KPI Governance • Tableau • Power BI • DAX • Looker/Sigma Patterns • Executive Reporting |
-| AI-Native Analytics | Governed Agents • Semantic Layers • RAG/API Orchestration • LLM Evaluation • Refusals • Evidence Traces |
-| Multi-Agent Systems | Specialized Agents • Deliberation • Confidence • Knowledge Graphs • Validation • Human Review |
-| AgentOps | Event Stores • Session Metrics • Evaluation Harnesses • Read-Only Inspection • Release Evidence |
-| Decision Intelligence | Scenario Simulation • Digital Twins • Causal Experiments • Human Approval • Policy Evaluation |
-| Research Engineering | Monte Carlo • Statistical Inference • Reproducibility • Evidence Provenance • CI/CD |
-| Guarded Development | Workspace Boundaries • Patch Proposals • Diff Budgets • Command Allowlists • Reviewed Apply |
-
----
-
-## Technology Stack
-
-**Python** • **SQL** • **dbt** • **DuckDB** • **SQLite** • **Pandas** • **NumPy** • **FastAPI** • **Docker** • **GitHub Actions** • **Tableau** • **Power BI** • **DAX** • **Power Query** • **Airflow / Prefect Patterns** • **Snowflake / BigQuery / Databricks Patterns** • **pytest** • **Multi-Agent Orchestration** • **AI-Assisted Development**
-
----
-
-## Rollback
-
-The previous 12-repository profile is preserved at branch `backup/pre-16-repo-expansion-2026-07-12`.
-
-## Professional Direction
-
-Focused on opportunities in **Analytics Engineering, Data & Analytics Engineering, Business Intelligence, Operations Analytics, Supply Chain Analytics, Revenue/Growth Analytics, Decision Intelligence, AI-Native Analytics, Multi-Agent Systems, AgentOps, Research Engineering, and AI-Augmented Development Workflows**.
-
-Start with the **[Portfolio Roadmap](https://github.com/net421/AI-Native-Analytics-Portfolio-Roadmap)** for the complete architecture, release ledger, integration boundaries, and role-based review paths.
+- Clean and analyze operational datasets with SQL and Python.
+- Define and validate logistics or business KPIs with stakeholder guidance.
+- Build and maintain junior-level reports, marts, tests, and dashboards.
+- Investigate discrepancies, document assumptions, and communicate limitations clearly.
+- Learn a team-specific tool with supervision when the underlying task is already familiar.
